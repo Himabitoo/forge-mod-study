@@ -19,7 +19,6 @@ public class PlayerListener{
 
         Player player = event.getPlayer();
         Block block = event.getState().getBlock();
-        String msg = "You Break " + block.getName();
-        player.sendSystemMessage(Component.nullToEmpty(msg));
+        player.sendSystemMessage(block.getName());
     }
 }
