@@ -1,14 +1,15 @@
 package com.ell.studymod;
 
-import com.ell.studymod.item.ModCreativeModeTabs;
-import com.ell.studymod.item.ModItems;
-import com.mojang.logging.LogUtils;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraftforge.event.CreativeModeTabEvent;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import com.mojang.logging.LogUtils;
+import com.ell.studymod.item.ModItems;
+import net.minecraftforge.fml.common.Mod;
+import com.ell.studymod.item.ModCreativeModeTabs;
+import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+
 
 @Mod(StudyMod.MOD_ID)
 public class StudyMod {
