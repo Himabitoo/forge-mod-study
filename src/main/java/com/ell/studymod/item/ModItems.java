@@ -13,15 +13,15 @@ public class ModItems
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS,StudyMod.MOD_ID);
 
-    /*
-    RegistryObjectのItem型を利用してそれぞれの変数にアイテムコードを書き込んで格納する
+    /**
+        RegistryObjectのItem型を利用してそれぞれの変数にアイテムコードを書き込んで格納する
 
-    --- 登録一覧 ---
-    >>Items<<
-    RED_DIAMOND -> red_diamond
-    RAW_RED_DIAMOND -> raw_red_diamond
+        --- 登録一覧 ---
+        >>Items<<
+        RED_DIAMOND -> red_diamond
+        RAW_RED_DIAMOND -> raw_red_diamond
 
-    >>Blocks<<
+        >>Blocks<<
 
      */
     // レッドダイアモンド

@@ -20,13 +20,15 @@ public class StudyMod {
 
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        /*
+        /**
             ~~~ModItems.register関数を呼び出して登録をする~~~
             - ModItemsクラスは呼び出さないと処理が走らないためインスタンスで呼び出す必要がある。
          */
         ModItems.register(modEventBus);
 
-        // EventBusにStudyModクラスを登録する
+        /**
+            EventBusにStudyModクラスを登録する
+         */
         modEventBus.addListener(this::addCreative);
     }
 
