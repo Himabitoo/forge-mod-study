@@ -2,5 +2,13 @@
 <h1 align="center">StudyMod</h1>
 <p>覚えたこと、メモしたいことを都度ここに書き込みます。</p>
 
-<h3>command of make jar file</h3>
-`gradlew build` or `./gradlew build`
+## command of make jar file
+
+### Windows
+````java:Windows
+gradlew build
+````
+### another
+````java:Windows
+./gradlew build
+````
