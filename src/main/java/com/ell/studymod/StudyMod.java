@@ -4,7 +4,6 @@ import com.ell.studymod.item.ModCreativeModeTabs;
 import com.ell.studymod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -17,13 +16,17 @@ public class StudyMod {
     public static final String MOD_ID = "studymod";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public StudyMod()
-    {
+    public StudyMod(){
+
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        /*
+            ~~~ModItems.register関数を呼び出して登録をする~~~
+            - ModItemsクラスは呼び出さないと処理が走らないためインスタンスで呼び出す必要がある。
+         */
         ModItems.register(modEventBus);
-        MinecraftForge.EVENT_BUS.register(this);
 
+        // EventBusにStudyModクラスを登録する
         modEventBus.addListener(this::addCreative);
     }
 

@@ -8,6 +8,9 @@ import net.minecraftforge.fml.common.Mod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+/*
+    Eventが発生したらこのクラスを呼び出すようにするための処理(多分)
+ */
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class PlayerListener{
 

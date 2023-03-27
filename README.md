@@ -3,7 +3,6 @@
 <p>覚えたこと、メモしたいことを都度ここに書き込みます。</p>
 
 ## command of make jar file
-
 ### Windows
 ````java:Windows
 gradlew build
@@ -12,3 +11,12 @@ gradlew build
 ````java:Windows
 ./gradlew build
 ````
+
+## MOD REGISTER方法
+主に2通り存在する。
+ただし、ここではDeferredRegisterを使用する
+- DeferredRegister
+- RegisterEvent
+
+
+
