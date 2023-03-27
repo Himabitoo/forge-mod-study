@@ -1,6 +1,5 @@
 package com.ell.studymod.event;
 
-import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.event.level.BlockEvent.BreakEvent;
@@ -19,6 +18,6 @@ public class PlayerListener{
 
         Player player = event.getPlayer();
         Block block = event.getState().getBlock();
-        player.sendSystemMessage(Component.translatable("You break " + block.getName()));
+        player.sendSystemMessage(block.getName());
     }
 }
