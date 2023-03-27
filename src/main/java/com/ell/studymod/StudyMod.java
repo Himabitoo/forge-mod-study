@@ -32,6 +32,7 @@ public class StudyMod {
             event.accept(ModItems.RED_DIAMOND);
             event.accept(ModItems.RAW_RED_DIAMOND);
         }
+
         if(event.getTab() == ModCreativeModeTabs.STUDYMOD_TAB){
             event.accept(ModItems.RED_DIAMOND);
             event.accept(ModItems.RAW_RED_DIAMOND);

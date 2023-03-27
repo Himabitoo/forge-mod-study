@@ -9,10 +9,11 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems
 {
+    // DeferredRegisterを使用してItemを登録する
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS,
-                    StudyMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS,StudyMod.MOD_ID);
 
+    //
     public static final RegistryObject<Item> RED_DIAMOND = ITEMS.register("red_diamond",
             () -> new Item(new Item.Properties()));
 
