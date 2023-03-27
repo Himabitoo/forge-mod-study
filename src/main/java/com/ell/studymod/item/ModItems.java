@@ -16,6 +16,9 @@ public class ModItems
     public static final RegistryObject<Item> RED_DIAMOND = ITEMS.register("red_diamond",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> RAW_RED_DIAMOND = ITEMS.register("raw_red_diamond",
+            () -> new Item(new Item.Properties()));
+
 
 
     public  static void register(IEventBus eventBus){

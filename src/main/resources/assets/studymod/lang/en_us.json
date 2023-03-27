@@ -1,3 +1,6 @@
 {
-  "item.studymod.red_diamond": "Red Diamond"
+  "item.studymod.red_diamond": "Red Diamond",
+  "item.studymod.raw_red_diamond": "Raw Red Diamond",
+
+  "creativemodetab.studymod_tab": "Study Mod"
 }

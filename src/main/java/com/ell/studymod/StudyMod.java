@@ -1,5 +1,6 @@
 package com.ell.studymod;
 
+import com.ell.studymod.item.ModCreativeModeTabs;
 import com.ell.studymod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -29,6 +30,11 @@ public class StudyMod {
     private void addCreative(CreativeModeTabEvent.BuildContents event){
         if(event.getTab() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.RED_DIAMOND);
+            event.accept(ModItems.RAW_RED_DIAMOND);
+        }
+        if(event.getTab() == ModCreativeModeTabs.STUDYMOD_TAB){
+            event.accept(ModItems.RED_DIAMOND);
+            event.accept(ModItems.RAW_RED_DIAMOND);
         }
     }
 

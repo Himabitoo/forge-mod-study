@@ -1,3 +1,6 @@
 {
-  "item.studymod.red_diamond": "レッドダイアモンド"
+  "item.studymod.red_diamond": "レッドダイアモンド",
+  "item.studymod.raw_red_diamond": "レッドダイアモンド原石",
+
+  "creativemodetab.studymod_tab": "Study Mod"
 }
