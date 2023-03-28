@@ -24,12 +24,12 @@ public class ModItems
         >>Blocks<<
 
      */
-    // レッドダイアモンド
-    public static final RegistryObject<Item> RED_DIAMOND = ITEMS.register("red_diamond",
+    // サンダーダイアモンド
+    public static final RegistryObject<Item> RED_DIAMOND = ITEMS.register("thunder_diamond",
             () -> new Item(new Item.Properties()));
 
-    // レッドダイアモンド原石
-    public static final RegistryObject<Item> RAW_RED_DIAMOND = ITEMS.register("raw_red_diamond",
+    // サンダーダイアモンド原石
+    public static final RegistryObject<Item> RAW_RED_DIAMOND = ITEMS.register("raw_thunder_diamond",
             () -> new Item(new Item.Properties()));
 
 
