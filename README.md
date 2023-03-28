@@ -19,4 +19,9 @@ gradlew build
 - RegisterEvent
 
 
+## Diary
 
+### 2023/03/28
+
+<p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-28_demo1.png" alt="Logo"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-28_demo2.png" alt="Logo"></p>
