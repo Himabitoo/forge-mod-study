@@ -25,11 +25,11 @@ public class ModItems
 
      */
     // サンダーダイアモンド
-    public static final RegistryObject<Item> RED_DIAMOND = ITEMS.register("thunder_diamond",
+    public static final RegistryObject<Item> THUNDER_DIAMOND = ITEMS.register("thunder_diamond",
             () -> new Item(new Item.Properties()));
 
     // サンダーダイアモンド原石
-    public static final RegistryObject<Item> RAW_RED_DIAMOND = ITEMS.register("raw_thunder_diamond",
+    public static final RegistryObject<Item> RAW_THUNDER_DIAMOND = ITEMS.register("raw_thunder_diamond",
             () -> new Item(new Item.Properties()));
 
 

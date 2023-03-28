@@ -18,7 +18,7 @@ public class ModCreativeModeTabs {
     public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event){
 
         STUDYMOD_TAB = event.registerCreativeModeTab(new ResourceLocation(StudyMod.MOD_ID,"studymod_tab"),
-                builder -> builder.icon(()-> new ItemStack(ModItems.RED_DIAMOND.get()))
+                builder -> builder.icon(()-> new ItemStack(ModItems.THUNDER_DIAMOND.get()))
                         .title(Component.translatable("creativemodetab.studymod_tab")));
 
     }

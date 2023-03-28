@@ -1,5 +1,6 @@
 package com.ell.studymod;
 
+import com.ell.studymod.block.ModBlocks;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import com.ell.studymod.item.ModItems;
@@ -26,7 +27,7 @@ public class StudyMod {
             - ModItemsクラスは呼び出さないと処理が走らないためインスタンスで呼び出す必要がある。
          */
         ModItems.register(modEventBus);
-
+        ModBlocks.register(modEventBus);
         /**
             EventBusにStudyModクラスを登録する
          */
@@ -34,14 +35,32 @@ public class StudyMod {
     }
 
     private void addCreative(CreativeModeTabEvent.BuildContents event){
+
+        /**
+            鉱石TABに表示
+         */
+
         if(event.getTab() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.RED_DIAMOND);
-            event.accept(ModItems.RAW_RED_DIAMOND);
+            event.accept(ModItems.THUNDER_DIAMOND);
+            event.accept(ModItems.RAW_THUNDER_DIAMOND);
         }
 
+        /**
+            建築ブロックTABに表示
+         */
+
+        if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.DEEPSLATE_THUNDER_DIAMOND_ORE);
+        }
+
+        /**
+            StudyModTabsに表示
+         */
+
         if(event.getTab() == ModCreativeModeTabs.STUDYMOD_TAB){
-            event.accept(ModItems.RED_DIAMOND);
-            event.accept(ModItems.RAW_RED_DIAMOND);
+            event.accept(ModItems.THUNDER_DIAMOND);
+            event.accept(ModItems.RAW_THUNDER_DIAMOND);
+            event.accept(ModBlocks.DEEPSLATE_THUNDER_DIAMOND_ORE);
         }
     }
 
