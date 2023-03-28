@@ -1,6 +1,7 @@
 {
   "item.studymod.thunder_diamond": "Thunder Diamond",
   "item.studymod.raw_thunder_diamond": "Raw Thunder Diamond",
+  "block.studymod.deepslate_thunder_diamond_ore": "Deepslate Thunder Diamond Ore",
 
-  "creativemodetab.studymod_tab": "Study Mod"
+  "creativemodetab.studymod_tab": "StudyMod"
 }

@@ -1,6 +1,7 @@
 {
   "item.studymod.thunder_diamond": "サンダーダイアモンド",
   "item.studymod.raw_thunder_diamond": "サンダーダイアモンド原石",
+  "block.studymod.deepslate_thunder_diamond_ore": "深層岩のサンダーダイアモンド鉱石",
 
-  "creativemodetab.studymod_tab": "Study Mod"
+  "creativemodetab.studymod_tab": "StudyMod"
 }
