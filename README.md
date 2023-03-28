@@ -21,7 +21,12 @@ gradlew build
 
 ## Diary
 
-### 2023/03/28
+### 2023/03/27
     アイテムの見た目を少し変更 / edited the texture of StudyMod items.
-<p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-28_demo1.png" alt="Logo"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-28_demo2.png" alt="Logo"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-27_img1.png" alt="Logo"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-27_img2.png" alt="Logo"></p>
+
+### 2023/03/28
+    追加したアイテムが出てくる鉱石の追加 / add new block.
+<p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-28_img1.png" alt="Logo"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-28_img2.png" alt="Logo"></p>
