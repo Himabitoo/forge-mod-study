@@ -29,4 +29,7 @@ gradlew build
 ### 2023/03/28
     追加したアイテムが出てくる鉱石の追加 / add new block.
 <p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-28_img1.png" alt="Logo"></p>
+    
+    ブロックの置いた時の音などオプション設定も行った
+
 <p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-28_img2.png" alt="Logo"></p>
