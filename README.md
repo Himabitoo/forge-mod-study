@@ -33,3 +33,7 @@ gradlew build
     ブロックの置いた時の音などオプション設定も行った
 
 <p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-28_img2.png" alt="Logo"></p>
+
+### 2023/03/29
+    ブロックは破壊時のアイテムドロップ、などなど
+<p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-29.png" alt="Logo"></p>
