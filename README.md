@@ -36,4 +36,22 @@ gradlew build
 
 ### 2023/03/29
     ブロックは破壊時のアイテムドロップ、などなど
+    
+````json:json
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "studymod:raw_thunder_diamond"
+        }
+      ]
+    }
+  ]
+}
+````
+    
 <p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-29.png" alt="Logo"></p>
