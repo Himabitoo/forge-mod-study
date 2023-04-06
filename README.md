@@ -55,3 +55,46 @@ gradlew build
 ````
     
 <p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-29.png" alt="Logo"></p>
+
+
+### 2023/04/6
+    raw_thunder_diamondを使った焼き規則を追加
+    
+````json:json
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "studymod:raw_thunder_diamond"
+  },
+  "result": {
+    "item": "studymod:thunder_diamond",
+  }
+}
+````
+<p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-04-06_img1.png" alt="Logo"></p>
+
+    thunder_diamondを使ったクラフト規則を追加
+
+````json:json
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "studymod:thunder_diamond"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "studymod:deepslate_thunder_diamond_ore"
+  }
+}
+````
+
+<p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-04-06_img2.png" alt="Logo"></p>
