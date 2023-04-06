@@ -58,24 +58,17 @@ gradlew build
 
 
 ### 2023/04/6
-    raw_thunder_diamondを使った焼き規則を追加
-    
-````json:json
-{
-  "type": "minecraft:smelting",
-  "cookingtime": 200,
-  "experience": 0.7,
-  "ingredient": {
-    "item": "studymod:raw_thunder_diamond"
-  },
-  "result": {
-    "item": "studymod:thunder_diamond",
-  }
-}
-````
-<p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-04-06_img1.png" alt="Logo"></p>
 
     thunder_diamondを使ったクラフト規則を追加
+
+    "key"は特定の文字をitemとして設定ができるため便利
+    "key": {
+    "#": {
+      "item": "studymod:thunder_diamond"
+    }
+
+    "pattern"は3x3
+
 
 ````json:json
 {
@@ -98,3 +91,20 @@ gradlew build
 ````
 
 <p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-04-06_img2.png" alt="Logo"></p>
+
+    raw_thunder_diamondを使った焼き規則を追加
+    
+````json:json
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "studymod:raw_thunder_diamond"
+  },
+  "result": {
+    "item": "studymod:thunder_diamond",
+  }
+}
+````
+<p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-04-06_img1.png" alt="Logo"></p>
