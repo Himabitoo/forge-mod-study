@@ -1,5 +1,8 @@
 package com.ell.studymod.event;
 
+import net.minecraft.network.chat.contents.TranslatableContents;
+import net.minecraft.world.entity.Entity;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 import org.apache.logging.log4j.Logger;
 import net.minecraftforge.fml.common.Mod;
 import org.apache.logging.log4j.LogManager;
@@ -24,5 +27,13 @@ public class PlayerListener{
         Block block = event.getState().getBlock();
         player.sendSystemMessage(block.getName());
     }
+
+//    @SubscribeEvent
+//    public static void onPlayerChangeBiome(PlayerEvent.PlayerChangedDimensionEvent event){
+//
+//        Player player = event.getEntity().;
+//        player.sendSystemMessage(new TranslatableContents(Str));
+//
+//    }
 
 }

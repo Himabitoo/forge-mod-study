@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "cookingtime": 200,
-  "experience": 0.7,
+  "experience": 100.0,
   "ingredient": {
     "item": "studymod:raw_thunder_diamond"
   },

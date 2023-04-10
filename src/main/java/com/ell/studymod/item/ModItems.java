@@ -21,8 +21,6 @@ public class ModItems
         RED_DIAMOND -> red_diamond
         RAW_RED_DIAMOND -> raw_red_diamond
 
-        >>Blocks<<
-
      */
     // サンダーダイアモンド
     public static final RegistryObject<Item> THUNDER_DIAMOND = ITEMS.register("thunder_diamond",
