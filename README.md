@@ -21,12 +21,12 @@ gradlew build
 
 ## Diary
 
-### 2023/03/27
+## 2023/03/27
     アイテムの見た目を少し変更 / edited the texture of StudyMod items.
 <p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-27_img1.png" alt="Logo"></p>
 <p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-27_img2.png" alt="Logo"></p>
 
-### 2023/03/28
+## 2023/03/28
     追加したアイテムが出てくる鉱石の追加 / add new block.
 <p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-28_img1.png" alt="Logo"></p>
     
@@ -34,8 +34,8 @@ gradlew build
 
 <p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-28_img2.png" alt="Logo"></p>
 
-### 2023/03/29
-    ブロックは破壊時のアイテムドロップ、などなど
+## 2023/03/29
+### ブロックは破壊時のアイテムドロップ、などなど
     
 ````json:json
 {
@@ -57,7 +57,7 @@ gradlew build
 <p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-29.png" alt="Logo"></p>
 
 
-### 2023/04/6
+## 2023/04/6
 
     thunder_diamondを使ったクラフト規則を追加
 
@@ -92,9 +92,9 @@ gradlew build
 
 <p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-04-06_img2.png" alt="Logo"></p>
 
-    raw_thunder_diamondを使った焼き規則を追加
+### raw_thunder_diamondを使った焼き規則を追加
     
-````json:json
+````json
 {
   "type": "minecraft:smelting",
   "cookingtime": 200,
@@ -103,8 +103,28 @@ gradlew build
     "item": "studymod:raw_thunder_diamond"
   },
   "result": {
-    "item": "studymod:thunder_diamond",
+    "item": "studymod:thunder_diamond"
   }
 }
 ````
 <p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-04-06_img1.png" alt="Logo"></p>
+
+## 2023/04/10
+
+### 追加したMODアイテム、ブロックの詳細設定、管理を行うクラスの作成
+
+ItemModelBuilderはアイテムのモデルを構築するためのAPI</br>
+これをすることでresource内でjsonファイルを生成してくれてアイテム、ブロックがどのように表示されるかの設定、定義ができる。
+
+````java
+
+public class ModItemModelProvider extends ItemModelProvider {
+
+    private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
+        return withExistingParent(Item.getId(), getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(StudyMod.MOD_ID, "item/" + item.getId().getPath()));
+    }
+
+}
+````
