@@ -59,7 +59,7 @@ gradlew build
 
 ## 2023/04/6
 
-    thunder_diamondを使ったクラフト規則を追加
+### thunder_diamondを使ったクラフト規則を追加
 
     "key"は特定の文字をitemとして設定ができるため便利
     "key": {
