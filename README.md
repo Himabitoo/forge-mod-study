@@ -57,7 +57,7 @@ gradlew build
 <p align="center"><img src="https://raw.githubusercontent.com/Himabitoo/forge-mod-study/main/diary/img/2023-03-29.png" alt="Logo"></p>
 
 
-## 2023/04/6
+## 2023/04/06
 
 ### thunder_diamondを使ったクラフト規則を追加
 
