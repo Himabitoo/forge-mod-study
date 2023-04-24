@@ -27,6 +27,6 @@ public class ModItemModelProvider extends ItemModelProvider {
                 new ResourceLocation(StudyMod.MOD_ID,"item/" + item.getId().getPath()));
     }
 
-    private ItemModelBuilder
+//    private ItemModelBuilder
 
 }
